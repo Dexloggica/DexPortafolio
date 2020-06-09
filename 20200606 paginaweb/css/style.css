@@ -19,7 +19,7 @@ valores
     overflow: hidden;
     background: var(--cuarto);
     max-width: 800px;
-
+    text-align: center;
 }
 
 .icon{
@@ -40,12 +40,13 @@ valores
     color:var(--terciario);
     font-family: "Comic Sans MS" ;
     text-decoration: none;
+    text-align: center;
 }
-.textomenu:hover{
-    color:var(--terciario);
+/*.textomenu:hover{
+    color:var(--secundario);
     font-family: "Comic Sans MS" ;
     text-decoration: none;
-}
+}*/
 .menu .row .col-sm-2{
     width: 16%;
     text-align: center;
@@ -53,10 +54,12 @@ valores
     float: left;
     opacity: 0.8;
 }
-.menu .row .col-sm-2 .icon:hover +.textomenu{
+.icon:hover +.textomenu{
     color:var(--secundario);
 }
-
+.textomenu:hover +.icon{
+    color:var(--secundario);
+}
 .header .container .row .col-sm-12 .logo img{
     display:block;
     margin:auto;
@@ -78,3 +81,4 @@ valores
     border-radius: 50%;
     text-decoration: none;
 }
+
