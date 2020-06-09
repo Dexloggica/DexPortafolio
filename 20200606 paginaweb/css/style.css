@@ -5,250 +5,146 @@ propiedades
 valores
  */
 :root{
-    --primario:#212121;
-    --secundario:#a5a5a5;
-    --terciario:#ffc500;
-    --cuarto:#ffffff;
+    --primario:#ffe692;
+    --secundario:#ffc500;
+    --terciario:#a5a5a5;
+    --cuarto:#212121;
     --quinto:#151515;
 }
 
-header{
-    background: var(--primario);
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
-    border-radius: 35px 0px 35px 0px;
-    -moz-border-radius: 35px 0px 35px 0px;
-    -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid var(--primario);
-}
-body{
-    background: var(--quinto);
-}
-a{
-    color: var(--secundario);
-    outline: none;
-    display: block;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
-    font-weight: 700;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: 1px solid #080808;
-    color: #ffffff;
-    padding: 12px 20px;
-}
-li{
-    color: var(--terciario);
-    list-style: inside none;
-    float: left;
-    display: inline-block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
-h1{
-    background: var(--primario);
-    color: var(--terciario);
-    font-family: Arial;
-    font-size: larger;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
-    border-radius: 35px 0px 35px 0px;
-    -moz-border-radius: 35px 0px 35px 0px;
-    -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid var(--primario);
-}
-h2{
-    background: var(--primario);
-    color: var(--secundario);
-    font-family: Arial;
-    font-size: medium;
-}
-h3{
-    background: var(--primario);
-    color: var(--cuarto);
-    font-family: Arial;
-    font-size: smaller;
-}
-h6{
-    background: var(--primario);
-    color: var(--cuarto);
-    font-family: Arial;
-    font-size: smaller;
-}
-p{
-    background: var(--primario);
-    color: var(--terciario);
-    font-family: Arial;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    color: #ffffff;
-
-}
-
 .menu{
-    height: 37px;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    margin: 50px auto;
+    overflow: hidden;
+    background: var(--cuarto);
+    max-width: 800px;
+}
+
+/*
+.menu ol li{
+    width: 16%;
+    text-align: center;
     display: block;
-    border: 1px solid;
-    border-radius: 5px;
-    width: auto;
-    border-color: #080808;
-    margin: 0;
-    padding: 0;
-}
-.menu > ol {
-    list-style: inside none;
-    margin: 0;
-    padding: 0;
-}
-.menu > ol > li {
-    list-style: inside none;
     float: left;
-    display: inline-block;
-    position: relative;
-    margin: 0;
-    padding: 0;
+    opacity: 0.8;
+    color:var(--secundario);
 }
-.menu.align-center > ol {
-    text-align: center;
+
+.menu ol li:hover{
+    cursor: pointer;
+    color: var(--primario);
+    opacity: 1;
 }
-.menu.align-center > ol > li {
-    float: none;
-    margin-left: -3px;
-}
-.menu.align-center ol ol {
-    text-align: left;
-}
-.menu.align-center > ol > li:first-child > a {
-    border-radius: 0;
-}
-.menu > ol > li > a {
-    outline: none;
+
+.menu nav ol li a{
     display: block;
-    position: relative;
-    text-align: center;
+    padding: 10px;
+
+}
+.header div figure img{
+    display:block;
+    margin:auto;
+}
+.header{
+    background: var(--cuarto);
+}
+.textomenu{
+    color:var(--terciario);
+    font-family: "Comic Sans MS" ;
     text-decoration: none;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
-    font-weight: 700;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: 1px solid #080808;
-    color: #ffffff;
-    padding: 12px 20px;
 }
-.menu > ol > li:first-child > a {
-    border-radius: 5px 0 0 5px;
-}
-.menu > ol > li > a:after {
-    content: "";
-    position: absolute;
-    border-right: 1px solid;
-    top: -1px;
-    bottom: -1px;
-    right: -2px;
-    z-index: 99;
-    border-color: #3c3c3c;
-}
-.menu ol li.has-sub:hover > a:after {
-    top: 0;
-    bottom: 0;
-}
-.menu > ol > li.has-sub > a:before {
-    content: "";
-    position: absolute;
-    top: 18px;
-    right: 6px;
-    border: 5px solid transparent;
-    border-top: 5px solid #ffffff;
+.textomenu:hover{
+    color:var(--secundario);
 }
 
-
-
-.menu > ol > li.has-sub:hover > a:before {
-    top: 19px;
-}
-.menu > ol > li.has-sub:hover > a {
-    padding-bottom: 14px;
-    z-index: 999;
-    border-color: #3f3f3f;
-}
-.menu > ol li.has-sub:hover > ol,
-.menu > ol li.has-sub:hover > div {
+.menu nav ol li .icon{
+    font-size: 20px;
+    border: solid 2px var(--secundario);
+    text-align: center;
+    height: 50px;
+    width: 50px;
     display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
 }
-.menu > ol > li.has-sub > a:hover,
-.menu > ol > li.has-sub:hover > a {
-    background: #3f3f3f;
-    border-color: #3f3f3f;
-}
-.menu > ol li > ol,
-.menu > ol li > div {
-    display: none;
-    width: auto;
-    position: absolute;
-    top: 38px;
-    background: #3f3f3f;
-    border-radius: 0 0 5px 5px;
-    z-index: 999;
-    padding: 10px 0;
-}
-.menu > ol li > ol {
-    width: 200px;
-}
-.menu  ol ol ol {
-    position: absolute;
-}
-.menu  ol ol li:hover > ol {
-    left: 100%;
-    top: -10px;
-    border-radius: 5px;
-}
-.menu  ol li > ol li {
+.icon{
+    font-size: 20px;
+    color: var(--terciario);
+    border: solid 2px var(--terciario);
+    text-align: center;
+    height: 50px;
+    width: 50px;
     display: block;
-    list-style: inside none;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-.menu  ol li > ol li a {
-    outline: none;
-    display: block;
-    position: relative;
-    font: 10pt Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
     text-decoration: none;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
-    margin: 0;
-    padding: 8px 20px;
+
 }
-.menu,
-.menu ol ol > li:hover > a,
-.menu ol ol li a:hover {
-    background: #3c3c3c;
-    background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
-    background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-    background: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-    background: -ms-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-    background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+.icon:hover{
+    font-size: 20px;
+    color: var(--secundario);
+    border: solid 2px var(--secundario);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
 }
-.menu > ol > li > a:hover {
-    background: #080808;
-    color: #ffffff;
+*/
+.icon{
+    font-size: 20px;
+    color: var(--terciario);
+    border: solid 2px var(--terciario);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
 }
-.menu ol ol a:hover {
-    color: #ffffff;
+.textomenu{
+    color:var(--terciario);
+    font-family: "Comic Sans MS" ;
+    text-decoration: none;
 }
-.menu > ol > li.has-sub > a:hover:before {
-    border-top: 5px solid #ffffff;
+.menu ol li{
+    width: 16%;
+    text-align: center;
+    display: block;
+    float: left;
+    opacity: 0.8;
+}
+.menu ol li div .icon:hover +.textomenu{
+    color:var(--secundario);
+}
+
+.header div figure img{
+    display:block;
+    margin:auto;
+}
+.header{
+    background: var(--cuarto);
+}
+
+.icon:hover{
+    font-size: 20px;
+    color: var(--secundario);
+    border: solid 2px var(--secundario);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
 }
