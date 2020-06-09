@@ -19,6 +19,7 @@ valores
     overflow: hidden;
     background: var(--cuarto);
     max-width: 800px;
+
 }
 
 .icon{
@@ -33,8 +34,14 @@ valores
     line-height: 50px;
     border-radius: 50%;
     text-decoration: none;
+
 }
 .textomenu{
+    color:var(--terciario);
+    font-family: "Comic Sans MS" ;
+    text-decoration: none;
+}
+.textomenu:hover{
     color:var(--terciario);
     font-family: "Comic Sans MS" ;
     text-decoration: none;
