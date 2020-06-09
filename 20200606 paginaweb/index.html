@@ -7,64 +7,47 @@
     <title>Dex</title>
     <link rel="icon" href="imagenes\logo.png">
     <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
 </head>
 <body>
     <!--cabecera-->
     <header class="header">
         <!--menu de navegacion-->
-        <div>
-            <figure class="logo">
-                <img src="imagenes\dexspace.png" alt="Logo DexNet">
-            </figure>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <figure class="logo">
+                        <img src="imagenes\dexspace.png" alt="Logo DexNet">
+                    </figure>
+                </div>
+            </div>
         </div>
-        <p>
-            <!--lista ordenada-->
-            <nav class="menu">
-                <ol>
-                    <!--primer item-->
-                    <li>
-                        <!--hyperlink-->
-                        <div><a class="icon" href="#hero">&#916;</a>
-                            <a class="textomenu" href="#hero">Sobre mi</a></div>
-
-                    </li>
-                    <li>
-                        <!--hyperlink-->
-                        <div><a class="icon"  href="#laboral" >&#932;</a>
-                            <a class="textomenu"  href="#laboral" >Desempeño laboral</a></div>
-                    </li>
-                    <li>
-                        <!--hyperlink-->
-                        <div> <a class="icon" href="#voluntariados">&#9829;</a>
-                        <a class="textomenu" href="#voluntariados">Voluntariados</a></div>
-                    </li>
-                    <li>
-                        <!--hyperlink-->
-                        <div> <a class="icon" href="#informatica">&#8712;</a>
-                        <a class="textomenu" href="#informatica">Informática</a></div>
-                    </li>
-
-                    <li>
-                        <!--hyperlink-->
-                        <div> <a class="icon" href="#arte">&#9835;</a>
-                        <a class="textomenu" href="#arte">Arte</a></div>
-                    </li>
-                    <li>
-                        <!--hyperlink-->
-                        <div> <a class="icon" href="#contactame">&#8746;</a>
-                        <a class="textomenu" href="#contactame">Trabajemos juntos</a></div>
-                    </li>
-                </ol>
-            </nav>
-        </div>
+        <nav class="menu">
+            <div class="row">
+                <div class="col-sm-2"><a class="icon" href="#hero">&#916;</a><a class="textomenu" href="#hero">Sobre mi</a></div>
+                <div class="col-sm-2"><a class="icon"  href="#laboral" >&#932;</a><a class="textomenu"  href="#laboral" >Desempeño laboral</a></div>
+                <div class="col-sm-2"><a class="icon" href="#voluntariados">&#9829;</a><a class="textomenu" href="#voluntariados">Voluntariados</a></div>
+                <div class="col-sm-2"><a class="icon" href="#informatica">&#8712;</a><a class="textomenu" href="#informatica">Informática</a></div>
+                <div class="col-sm-2"><a class="icon" href="#arte">&#9835;</a><a class="textomenu" href="#arte">Arte</a></div>
+                <div class="col-sm-2"><a class="icon" href="#contactame">&#8746;</a><a class="textomenu" href="#contactame">Trabajemos juntos</a></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+            </div>
+        </nav>
 
     </header>
     <section class="hero">
-        <h1><br>Hola! Soy Iván Exequiel Videla, aunque algunos simplemente me llaman Dex. Soy profesor, artista y programador. </br>Y en esta página encontraras algunos de mis trabajos más destacados.</br></h1>
+        <h1>Hola! Soy Iván Exequiel Videla, aunque algunos simplemente me llaman Dex. Soy profesor, artista y programador. Y en esta página encontraras algunos de mis trabajos más destacados.</h1>
         <img src="imagenes\hero.jpg" width="200" height="200" alt="nivel inicial">
     </section>
-    <section id="laboral">
-        <h1><br>Poseo más de diez años de experiencia dictando clases de música e informática a personas de todas las edades.</br></h1>
+    <section class="laboral" id="laboral">
+        <h1>Poseo más de diez años de experiencia dictando clases de música e informática a personas de todas las edades.</h1>
         <h2>Desempeño Laboral</h2>
         <article>
             <h3>Fotos</h3>
@@ -80,7 +63,7 @@
     <section class="voluntariados" id="voluntariados">
         <article>
             <h1><br>Además he participado en voluntariados y causas benéficas dentro del ambiente educativo, coordinando equipos y colaborando en diferentes proyectos.</br></h1>
-            <h6>Ex-Presidente del Centro de Estudiantes de la Universidad Nacional de Villa Mercedes, en la Escuela de Ingenieria</h6>
+            <h3>Ex-Presidente del Centro de Estudiantes de la Universidad Nacional de Villa Mercedes, en la Escuela de Ingenieria</h3>
 
             <p><small><strong>Fecha: 07/06/2020</strong></small></p>
         </article>
