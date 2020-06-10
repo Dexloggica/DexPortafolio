@@ -34,7 +34,19 @@ valores
     line-height: 50px;
     border-radius: 50%;
     text-decoration: none;
-
+}
+.iconfooter{
+    font-size: 20px;
+    color: var(--cuarto);
+    border: solid 2px var(--cuarto);
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
 }
 .textomenu{
     color:var(--terciario);
@@ -101,6 +113,34 @@ valores
     font-family: "Comic Sans MS" ;
     font-size: 26px;
 }
+
+.imageninformatica{
+    font-size: 20px;
+    color: var(--terciario);
+    border: solid 2px var(--terciario);
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.imageninformatica:hover{
+    font-size: 20px;
+    color: var(--secundario);
+    border: solid 2px var(--secundario);
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
 .textobusqueda{
     color:var(--cuarto);
     font-family: "Comic Sans MS" ;
