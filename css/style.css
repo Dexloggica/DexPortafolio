@@ -119,8 +119,8 @@ valores
     color: var(--terciario);
     border: solid 2px var(--terciario);
     text-align: center;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: block;
     margin: 0 auto;
     line-height: 50px;
