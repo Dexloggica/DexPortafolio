@@ -97,16 +97,16 @@ valores
 .textomenu{
     color:var(--terciario);
     font-family: "Comic Sans MS" ;
-    text-decoration: none;
     text-align: center;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     height: 5px;
     width: 50px;
-    display: block;
-    margin: 0 auto;
+    margin: unset;
     text-decoration: none;
-
+    margin-left: 12px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 /*.textomenu:hover{
     color:var(--secundario);
