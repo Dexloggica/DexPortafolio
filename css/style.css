@@ -31,10 +31,25 @@ valores
     width: 50px;
     display: block;
     margin: 0 auto;
-    line-height: 50px;
+    line-height: 42px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 30px !important;
+}
+.icon:hover{
+    font-size: 20px;
+    color: var(--secundario);
+    border: solid 2px var(--secundario);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    line-height: 42px;
     border-radius: 50%;
     text-decoration: none;
 }
+
 .iconfooter{
     font-size: 20px;
     color: var(--cuarto);
@@ -66,6 +81,11 @@ valores
     float: left;
     opacity: 0.8;
 }
+
+.logo{
+    height: 60%;
+    width: 60%;
+}
 .icon:hover +.textomenu{
     color:var(--secundario);
 }
@@ -78,20 +98,6 @@ valores
 }
 .header{
     background: var(--cuarto);
-}
-
-.icon:hover{
-    font-size: 20px;
-    color: var(--secundario);
-    border: solid 2px var(--secundario);
-    text-align: center;
-    height: 50px;
-    width: 50px;
-    display: block;
-    margin: 0 auto;
-    line-height: 50px;
-    border-radius: 50%;
-    text-decoration: none;
 }
 
 .hero{
@@ -156,6 +162,7 @@ valores
 .secundario{
     background: var(--secundario);
 }
+
 .terciario{
     background: var(--terciario);
 }
