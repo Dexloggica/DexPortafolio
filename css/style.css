@@ -99,6 +99,14 @@ valores
     font-family: "Comic Sans MS" ;
     text-decoration: none;
     text-align: center;
+    font-size: 14px;
+    text-align: center;
+    height: 5px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+
 }
 /*.textomenu:hover{
     color:var(--secundario);
