@@ -143,15 +143,13 @@ valores
 
 .imagenhero{
     margin-top: auto;
-    width: 300px;
+    width: 50%;
 }
 .imagenvoluntariado{
-    width: 100%;
-    height: 100%;
+    width: 50%;
 }
 .imagentrabajo{
-    width: 100%;
-    height: 100%;
+    width: 50%;
 }
 .textovoluntariado{
     color:var(--primario);
@@ -220,8 +218,16 @@ valores
 }
 
 .linea{
-    /*border: solid 2px var(--secundario);*/
+    border: solid 2px var(--secundario);
+}
+.lineaoscura{
+    border: solid 2px var(--cuarto);
 }
 .minh-100 {
     height: 100%;
+}
+
+#trabajo .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
 }
